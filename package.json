@@ -36,8 +36,7 @@
     "explore:report": "run-s explore:build explore:report-main explore:report-chunk explore:report-polyfills",
     "explore:report-main": "node_modules/.bin/source-map-explorer --html dist/browser/main.bundle.js > sourcemap/main-map.html",
     "explore:report-chunk": "node_modules/.bin/source-map-explorer --html dist/browser/0.chunk.js > sourcemap/chunk-map.html",
-    "explore:report-polyfills": "node_modules/.bin/source-map-explorer --html dist/browser/polyfills.bundle.js > sourcemap/polyfills-map.html",
-    "dummy": "some dummy for testing"
+    "explore:report-polyfills": "node_modules/.bin/source-map-explorer --html dist/browser/polyfills.bundle.js > sourcemap/polyfills-map.html"
   },
   "private": true,
   "dependencies": {
