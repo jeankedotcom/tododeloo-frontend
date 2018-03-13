@@ -11,6 +11,7 @@
     "build:aot": "node_modules/.bin/ng build --aot --app 1",
     "build:server": "node_modules/.bin/webpack -p",
     "test": "node_modules/.bin/ng test",
+    "headless": "node_modules/.bin/ng test --browsers ChromeHeadlessNoSandbox",
     "lint": "node_modules/.bin/ng lint",
     "e2e": "node_modules/.bin/ng e2e",
     "api": "run-p api:meta api:meta-rename api:default api:default-rename",
