@@ -42,13 +42,13 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "^5.2.9",
-    "@angular/cdk": "^5.2.4",
+    "@angular/cdk": "^6.0.0-beta.4",
     "@angular/common": "^5.2.9",
     "@angular/compiler": "^5.2.9",
     "@angular/core": "^5.2.9",
     "@angular/forms": "^5.2.9",
     "@angular/http": "^5.2.9",
-    "@angular/material": "^5.2.4",
+    "@angular/material": "^6.0.0-beta.4",
     "@angular/platform-browser": "^5.2.9",
     "@angular/platform-browser-dynamic": "^5.2.9",
     "@angular/platform-server": "^5.2.9",
@@ -91,7 +91,7 @@
     "ts-loader": "^3.5.0",
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
-    "typescript": "~2.7.2",
+    "typescript": "~2.7.0",
     "webpack": "^3.11.0",
     "webpack-node-externals": "^1.6.0"
   }
